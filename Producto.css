@@ -1,0 +1,72 @@
+header{
+	text-align: center;
+}
+
+body{
+	background-image: url(descarga.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+font-size: 390%;
+font-family: "Brush Script MT";
+}
+
+
+
+#inicio{
+	width: 100px;
+	margin-left: 1250px;
+}
+
+#atras{
+	width: 100px;
+	margin-bottom: 50px;
+
+}
+
+
+footer{
+text-align-last: right;
+}
+
+#can{
+position: absolute;
+	left: 50%;
+	width: 300px;
+}
+
+
+#Nombre{
+position: absolute;
+	left: 50%;
+	width: 300px;
+}
+
+#p{
+position: absolute;
+	left: 50%;
+	width: 300px;
+}
+
+#pre{
+position: absolute;
+	left: 50%;
+	width: 300px;
+}
+
+#pro{
+position: absolute;
+	left: 50%;
+	width: 300px;
+}
+
+#cp{
+position: absolute;
+	left: 50%;
+	width: 300px;
+}
+
+
+
+

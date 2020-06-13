@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>producto</title>
+	<link rel="stylesheet" type="text/css" href="Producto.css">
+</head>
+<body>
+	<HEADER>
+	<h1 align="center">Producto</h1>
+
+	 <form>
+	 	<label for="producto"></label>
+	 	<select name="producto" id="producto" onChange="location = form.producto.options[form.producto.selectedIndex].value;">
+	 		<option value="" selected>Eliminar</option>
+	 		<option value="">Modificar</option>
+	 		<option value="Producto(usuario).html">Registrar</option>
+	 	</select>
+	 </form>
+	 </HEADER>
+            <p align="right">Administrador</p>
+	 		<p>
+	 			<a href="Menu admin.html"><input type="submit" name="Inicio" value="Inicio" id="inicio" /></a>
+	 		</p>
+
+	 			<p>
+	 				<label for="name">Nombre producto:</label><input type="text" name="Nombre" id="Nombre" maxlength="20"/>
+	 			</p>
+
+	 				<p>
+	 				   <label for="can">Cantidad:</label> <input type="number" value="0" id="can" />
+	 				</p>
+
+	 					<p>
+	 						<label for="p">ID Producto:</label><input type="text" name="p" id="p" maxlength="20"/>
+	 					</p>
+
+	 						<p>
+	 							<label for="pre">Precio:</label><input type="text" name="pre" id="pre" maxlength="30"/>
+	 						</p>
+
+	 							<P>
+	 								<label for="pro">Proveedor:</label><input type="text" name="pre" id="pro" maxlength="20"/>
+	 							</P>
+	 								<p>
+	 									<label for="cp">Caducidad del producto:</label><input type="text" name="cp" id="cp" maxlength="30">
+	 								</p>
+
+	 								<footer>
+	 									<input type="submit" name="Cancelar" value="Cancelar"/>
+	 										<input type="submit" name="Confirmar" value="Confirmar"/>
+	 									</footer>
+	 									
+
+</body>
+</html>

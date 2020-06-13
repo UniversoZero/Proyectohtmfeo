@@ -1,0 +1,32 @@
+header{
+	text-align: center;
+}
+
+body{
+	background-image: url(descarga.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+font-size: 390%;
+font-family: "Brush Script MT";
+}
+
+
+
+
+footer{
+	margin-top: 50px;
+}
+
+#btn7{
+	float: right;
+}
+
+#btn6{
+	float: left;
+}
+
+#botones{
+	text-align-last: center;
+}

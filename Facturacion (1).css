@@ -1,0 +1,126 @@
+header{
+	text-align: center;
+}
+
+body{
+	background-image: url(descarga.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: "Brush Script MT";
+}
+select {
+	margin-left: auto;
+    text-align-last: center;
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+
+
+#facturar{
+	margin-left: auto;
+    text-align-last: center;
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+ 
+
+#iniciar{
+    float: right;
+}
+
+/* #atras{
+	width: 100px;
+	margin-bottom: 50px;
+} */
+
+section {
+	margin-top: 70px;
+	width: 70%;
+}
+
+/* section > input {
+	width: 100px;
+} */
+
+p{
+	width: 70%;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+}
+
+#factura{
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	width:300px; 
+}
+
+#productos{
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	width:300px; 
+}
+
+#precio{
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	width:300px; 
+}
+
+#proveedor{
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	width:300px; 
+}
+#cantidad{
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	width:300px; 
+}
+#subtotal{
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	width:300px; 
+}
+#iva{
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	width:300px; 
+}
+#fecha{
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	width:300px; 
+}
+#total{
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	width:300px; 
+}
+
+footer{
+text-align-last: right;
+}
+
+header > p{
+	text-align-last: right;
+}
+

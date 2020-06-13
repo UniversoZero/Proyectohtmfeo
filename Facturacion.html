@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Facturacion.css">
+	<title>Facturacion</title>
+</head>
+<body>
+	<header><h1>Facturacion</h1>
+		<p>Administrador</p>
+				<!--<input type="Button" name="atras" value="Atras" id="atras">-->
+		<a href="Menu admin.html"><input type="Button" name="inicio" value="Inicio" id="iniciar"></a>
+		<input type="text" name="factura" placeholder="Buscar ID factura" id="facturar">
+	</header>
+	
+	<nav>
+
+
+<form>
+<select name="select" onChange="location = form.area.options[form.area.selectedIndex].value;">
+	<option selected><---Elija una opcion---></option>
+	<option value="">Imprimir</option>
+	<option value="">Modificar</option>
+	<option value="">Eliminar</option>
+</select>
+</form>
+</select>
+	</nav>
+
+
+<section>
+	<p>Id factura:</p><input type="text" name="factura" id="factura" >
+		<p>Productos:</p><input type="text" name="productos" id="productos">
+			<p>Precio:</p><input type="text" name="precio" id="precio">
+			<p>Proveedor: </p><input type="text" name="proveedor" id="proveedor">
+			<p>Cantidad:</p><input type="text" name="cantidad" id="cantidad">
+			<p>Subtotal: </p><input type="text" name="subtotal" id="subtotal">
+			<p>IVA: </p><input type="text" name="iva" id="iva">
+			<p>Fecha: </p><input type="text" name="fecha" id="fecha">
+			<p>Total: </p><input type="text" name="total" id="total">
+</section>
+
+
+
+
+<footer>
+<input type="Button" name="cancelar" value="Cancelar" id="cancelar">
+	<input type="Button" name="confirmar" value="Confirmar" id="confirmar">
+	
+
+</footer>
+
+</body>
+</html>

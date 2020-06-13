@@ -1,0 +1,79 @@
+header{
+text-align: center;
+}
+
+body{
+background-image: url(descarga.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+font-size: 390%;
+font-family: "Brush Script MT";
+}
+form > select {
+margin-left: 400px;
+text-align-last: center;
+width: 300px;
+
+}
+
+#facturar{
+float: left;
+}
+ 
+
+#iniciar{
+width: 100px;
+float: right;
+}
+
+#atras{
+width: 100px;
+margin-bottom: 50px;
+
+}
+
+section {
+text-align: left;
+margin-top: 70px;
+}
+
+
+
+footer{
+text-align-last: right;
+}
+
+#nombre{
+position: absolute;
+	left: 50%;
+	width: 300px;
+}
+
+#id{
+position: absolute;
+	left: 50%;
+	width: 300px;
+}
+
+#empresa{
+position: absolute;
+	left: 50%;
+	width: 300px;
+}
+
+#correo{
+position: absolute;
+	left: 50%;
+	width: 300px;
+}
+#contacto{
+position: absolute;
+	left: 50%;
+	width: 300px;
+}
+
+header > p{
+	text-align-last: right;
+}

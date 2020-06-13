@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="Proveedor.css">
+<title>Proveedor</title>
+</head>
+<body>
+<header><h1>Proveedor</h1>
+	<p>Administrador</p>
+<!--<input type="Button" name="atras" value="Atras" id="atras">-->
+<a href="Menu admin.html"><input type="Button" name="inicio" value="Inicio" id="iniciar"></a>
+</header>
+
+<nav>
+
+<form>
+		<input type="text" name="factura" placeholder="Nombre del proveedor" id="facturar">
+<select name="area" onChange="location = form.area.options[form.area.selectedIndex].value;">
+<option value="Seleccione una opción"> Seleccione una opcion</option>
+<option value="Visualizar.html"> visualizar</option>
+<option value="">Modificar</option>
+<option value="">Eliminar</option>
+</select>
+</form>
+
+
+</select>
+</nav>
+
+
+<section>
+<p>Nombre completo:<input type="text" name="Nombre" id="nombre" ></p>
+<p>Identificacion:<input type="text" name="ID" id="id"></p>
+<p>Empresa:<input type="text" name="Empresa" id="empresa"></p>
+<p>Correo electronico: <input type="text" name="Correo" id="correo"></p>
+<p>Contacto: <input type="text" name="Contacto" id="contacto"></p>
+</section>
+
+
+
+
+<footer>
+<input type="Button" name="cancelar" value="Cancelar" id="cancelar">
+<input type="Button" name="confirmar" value="Confirmar" id="confirmar">
+
+
+</footer>
+
+</body>
+</html>

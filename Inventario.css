@@ -1,0 +1,63 @@
+header{
+	text-align: center;
+}
+
+body{
+	background-image: url(descarga.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+font-size: 390%;
+font-family: "Brush Script MT";
+}
+#rol {
+	text-align: right;
+}
+
+.clasificar{
+	position: absolute;
+	left: 50%;
+	width: 300px;
+}
+ 
+
+.productos{
+position: absolute;
+	left: 50%;
+	width: 300px;
+}
+
+
+#cantidad{
+	position: absolute;
+	left: 50%;
+	width: 300px;
+
+}
+
+#vendidos{
+	position: absolute;
+	left: 50%;
+	width: 300px;
+}
+
+#ingresados{
+	position: absolute;
+	left: 50%;
+	width: 300px;
+}
+
+#iniciar{
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+

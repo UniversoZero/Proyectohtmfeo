@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Inventario</title>
+    <link rel="stylesheet" href="Inventario.css">
+  </head>
+  <body>
+    <header>
+    <h1>Inventario</h1>
+    <!--<input type="Button" name="atras" value="Atras" id="atras">-->
+<a href="Menu admin.html"><input type="Button" name="inicio" value="Inicio" id="iniciar"></a>
+  </header>
+    <p id="rol">administrador y usuario </p>
+    <section style="display:flex;">
+      <p>Clasificacion de productos:
+      <select class="clasificar" name="Clasificacion">
+        <option value="">Destructivo</option>
+        <option value="">Duradero</option>
+        <option value="">Suministros</option>
+        <option value="">Materiales</option>
+      </select>
+      </p>
+    </section>
+
+    <section style="display:flex;">
+      <p>Nombre de los productos:   
+      <select class="productos" name="Productos">
+        <option value="" selected>Leche</option>
+        <option value="">Pan</option>
+        <option value="">Huevos</option>
+        <option value="">etc</option>
+      </select></p>
+    </section>
+
+    <section style="display:flex;">
+    <p>Cantidad de productos:
+    <input type="number" name="Cantidad" value="0" id="cantidad" /> </p> </section>
+
+    <section style="display:flex;">
+    <p>Productos vendidos:
+    <input type="number" name="Vendidos" value="0" id="vendidos" /> </p> </section>
+
+    <section style="display:flex;">
+    <p>Productos ingresados:
+    <input type="number" name="Ingresados" value="0" id="ingresados" /> </p></section>
+  </body>
+</html>
+
+

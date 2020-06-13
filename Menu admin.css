@@ -1,0 +1,38 @@
+header{
+text-align: center;
+}
+
+body{
+background-image: url(descarga.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+font-size: 390%;
+font-family: "Brush Script MT";
+}
+
+ 
+
+#btn7{
+float: right;
+}
+
+#btn6{
+	float:left;
+}
+
+#atras{
+width: 100px;
+margin-bottom: 50px;
+
+}
+
+section {
+text-align-last: center;
+}
+
+
+
+
+
